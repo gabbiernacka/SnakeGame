@@ -37,7 +37,9 @@ class Block extends Rectangle {
         setVisible(true);
         setTranslateX(positionX * GameWindow.blockSize);
         setTranslateY(positionY * GameWindow.blockSize);
+
         previousBlock = previous;
+
         maxWidth = gameWindow.getWidthGameWindow();
         maxHeight = gameWindow.getHeightGameWindow();
 
